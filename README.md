@@ -15,5 +15,6 @@ In our game, you don't have to stupidly click on one point on the screen! Instea
 You also need to collect coins that appear on the screen. They can be used to buy boosters for one game session or forever (more about this later). And not only that)
 
 # Source
-**assets folder** - source files folder in unity. Using unity 2022.3.39. Folders with libraries and other standard things were not duplicated. They can be easily recreated by simply creating a new project in Unity. Then you need to replace the assets folder from Github.
-**telegram_bot.js** is the main file of the telegram bot. It calls here-connector.js, which has not changed (except for changing the link) from the example from hot wallet (login tg bot). Also, to work, you need to install the necessary libraries and replace the API key with yours from bot father.
+**assets folder** - source files folder in unity. Using unity 2022.3.39. Folders with libraries and other standard things were not duplicated. They can be easily recreated by simply creating a new project in Unity. Then you need to replace the assets folder from Github. 
+Note: This project uses free assets from the Unity Asset Store. If you want to use this project for your own purposes, download the assets from official sources.
+**HitToothMonsterBot.js** is the main file of the telegram bot. It calls here-connector.js, which has not changed (except for changing the link) from the example from hot wallet (login tg bot). Also, to work, you need to install the necessary libraries and replace the API key with yours from bot father.
